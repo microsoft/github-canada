@@ -2,9 +2,9 @@
 <img width="474" height="138" alt="ms+gh" src="https://github.com/user-attachments/assets/fcd7622d-50bd-4080-8361-27add0d3e650" />
 </div>
 
-# 🇨🇦 GitHub Copilot Canada
+# 🇨🇦 GitHub @ Canada
 
-> A curated public hub of GitHub Copilot resources for Canadian customers, developers, and decision-makers — maintained by the **GitHub Copilot Canada team at Microsoft**.
+> A curated public hub of GitHub and GitHub Copilot resources for Canadian customers, developers, and decision-makers — maintained by the **GitHub @ Canada team at Microsoft**.
 
 ---
 <img width="1400" height="350" alt="ghcp_li_banner" src="https://github.com/user-attachments/assets/0b6111a5-cc00-4680-af45-1427869f7db0" />
@@ -20,7 +20,7 @@
 ## 📅 Canada Events
 
 - **Dev Days Canada 🇨🇦** — A GitHub-centric, tool-agnostic community and in-person event series for builders. [Open Dev Days Canada](./dev-days/)
-- **Dev Enablement Series** — Practical sessions for Canadian engineering teams covering Copilot, agentic workflows, DevOps, security, and team-scale adoption. [Browse previous topics](./dev-enablement-series/)
+- **Dev Enablement Series** — Season 2 live webinars on Copilot, agent-native engineering, MCP, and agentic workflows. [View the schedule and register](./dev-enablement-series/)
 - **Apply for workshops, office hours & invite-only events** — Get on the GHCP Canada team's invite list. [aka.ms/ghcp-canada-events-form](https://aka.ms/ghcp-canada-events-form)
 
 
@@ -68,12 +68,85 @@ Resources about Copilot's move to usage-based billing.
 
 ---
 
-## Fantastic 4
+## Meet the GitHub @ Canada teams
 
-The **Fantastic 4** are Microsoft's GitHub Acceleration team:
-**Chris Gagne, Mehdi Labadi, Ricardo Covo, and Ve Sharma**.
+GitHub's Canadian Hubbers and Microsoft's GitHub Acceleration specialists work
+together to help Canadian organizations adopt GitHub and GitHub Copilot.
 
-![Portraits of Microsoft GitHub Acceleration team members Chris Gagne, Mehdi Labadi, Ricardo Covo, and Ve Sharma](./images/fantastic-four.png)
+### GitHub Canada Solutions Engineering
+
+Meet the official Canadian Hubbers on GitHub's Solutions Engineering team.
+
+<ul class="team-grid team-grid-github">
+  <li class="team-card">
+    <a class="team-card-link" href="https://www.linkedin.com/in/jackgkafaty/">
+      <img class="team-portrait" src="./images/team/jack-kafaty-abudoj.png" alt="Portrait of Jack Kafaty Abudoj" width="72" height="72">
+      <span class="team-card-copy">
+        <strong>Jack Kafaty Abudoj</strong>
+        <span class="team-role">Senior Solutions Engineer</span>
+        <span>LinkedIn profile</span>
+      </span>
+    </a>
+  </li>
+  <li class="team-card">
+    <a class="team-card-link" href="https://www.linkedin.com/in/raymondkao/">
+      <img class="team-portrait" src="./images/team/ray-kao.png" alt="Portrait of Ray Kao" width="72" height="72">
+      <span class="team-card-copy">
+        <strong>Ray Kao</strong>
+        <span class="team-role">Strategic Solutions Engineer</span>
+        <span>LinkedIn profile</span>
+      </span>
+    </a>
+  </li>
+</ul>
+
+### Microsoft GitHub Acceleration — Fantastic 4
+
+The **Fantastic 4** are Microsoft's GitHub Acceleration team supporting
+customers across Canada.
+
+<ul class="team-grid team-grid-microsoft">
+  <li class="team-card">
+    <a class="team-card-link" href="https://www.linkedin.com/in/chris-gagne/">
+      <img class="team-portrait" src="./images/team/chris-gagne.png" alt="Portrait of Chris Gagne" width="72" height="72">
+      <span class="team-card-copy">
+        <strong>Chris Gagne</strong>
+        <span class="team-role">Senior Solution Engineer</span>
+        <span>LinkedIn profile</span>
+      </span>
+    </a>
+  </li>
+  <li class="team-card">
+    <a class="team-card-link" href="https://www.linkedin.com/in/mehdilabadi/">
+      <img class="team-portrait" src="./images/team/mehdi-labadi.png" alt="Portrait of Mehdi Labadi" width="72" height="72">
+      <span class="team-card-copy">
+        <strong>Mehdi Labadi</strong>
+        <span class="team-role">Solution Expert, Cloud &amp; AI</span>
+        <span>LinkedIn profile</span>
+      </span>
+    </a>
+  </li>
+  <li class="team-card">
+    <a class="team-card-link" href="https://www.linkedin.com/in/ricardocovo/">
+      <img class="team-portrait" src="./images/team/riccardo-covo.png" alt="Portrait of Riccardo Covo" width="72" height="72">
+      <span class="team-card-copy">
+        <strong>Riccardo Covo</strong>
+        <span class="team-role">Solution Engineer — Cloud &amp; AI Software</span>
+        <span>LinkedIn profile</span>
+      </span>
+    </a>
+  </li>
+  <li class="team-card">
+    <a class="team-card-link" href="https://www.linkedin.com/in/vevarunsharma/">
+      <img class="team-portrait" src="./images/team/ve-sharma.png" alt="Portrait of Ve Sharma" width="72" height="72">
+      <span class="team-card-copy">
+        <strong>Ve Sharma</strong>
+        <span class="team-role">Solution Engineer — Cloud &amp; AI Software</span>
+        <span>LinkedIn profile</span>
+      </span>
+    </a>
+  </li>
+</ul>
 
 ---
 
@@ -81,7 +154,7 @@ The **Fantastic 4** are Microsoft's GitHub Acceleration team:
 
 - **Email us** — [GitHubCopilotCanada@microsoft.com](mailto:GitHubCopilotCanada@microsoft.com)
 - **Open an issue** to suggest a resource, report a broken link, or request a topic — see [issue templates](.github/ISSUE_TEMPLATE) and [CONTRIBUTING.md](CONTRIBUTING.md).
-- **Through your Microsoft account team** — they can route you to the GitHub Copilot Canada team directly.
+- **Through your Microsoft account team** — they can route you to the GitHub @ Canada team directly.
 
 ---
 

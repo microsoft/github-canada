@@ -28,7 +28,7 @@ import type {PageId, TableOfContentsItem} from './content'
 type ColorMode = 'auto' | 'day' | 'night'
 type MarkdownExtraProps = {node?: unknown}
 
-const repositoryUrl = 'https://github.com/microsoft/github-copilot-canada'
+const repositoryUrl = 'https://github.com/microsoft/github-canada'
 const requestedPageId = document.body.dataset.page
 const pageId: PageId = isPageId(requestedPageId) ? requestedPageId : 'home'
 const siteRoot = document.body.dataset.siteRoot ?? './'
@@ -45,8 +45,35 @@ const markdownSchema = {
   ...defaultSchema,
   attributes: {
     ...defaultSchema.attributes,
+    a: [
+      ['className', 'data-footnote-backref', 'team-card-link'],
+      ...(defaultSchema.attributes?.a ?? []),
+    ],
     div: [...(defaultSchema.attributes?.div ?? []), 'align'],
-    img: [...(defaultSchema.attributes?.img ?? []), 'width', 'height'],
+    img: [
+      ['className', 'team-portrait'],
+      ...(defaultSchema.attributes?.img ?? []),
+      'width',
+      'height',
+    ],
+    li: [
+      ['className', 'task-list-item', 'team-card'],
+      ...(defaultSchema.attributes?.li ?? []),
+    ],
+    span: [
+      ['className', 'team-card-copy', 'team-role'],
+      ...(defaultSchema.attributes?.span ?? []),
+    ],
+    ul: [
+      [
+        'className',
+        'contains-task-list',
+        'team-grid',
+        'team-grid-github',
+        'team-grid-microsoft',
+      ],
+      ...(defaultSchema.attributes?.ul ?? []),
+    ],
   },
 }
 
@@ -69,7 +96,7 @@ const navigationItems: Array<{
   {id: 'dev-days', description: 'Community events for builders', icon: CalendarIcon},
   {
     id: 'dev-enablement-series',
-    description: 'Previous sessions and topics',
+    description: 'Season 2 webinars and registration',
     icon: VideoIcon,
   },
   {id: 'usage-based-billing', description: 'Copilot UBB playbook', icon: CreditCardIcon},
@@ -229,13 +256,13 @@ function SiteNavigation({currentPage}: {currentPage: PageId}) {
       </a>
       <a
         className="nav-item nav-item-compact"
-        href="https://docs.github.com/en/copilot"
+        href="https://docs.github.com/"
         target="_blank"
         rel="noreferrer"
       >
         <BookIcon size={18} aria-hidden="true" />
         <span>
-          <strong>Copilot Docs</strong>
+          <strong>GitHub Docs</strong>
         </span>
         <LinkExternalIcon className="nav-external" size={14} aria-hidden="true" />
       </a>
